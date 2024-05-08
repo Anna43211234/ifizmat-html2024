@@ -1,0 +1,38 @@
+body {
+    background: white;
+}
+
+th {
+    background: #D3D3D3;
+}
+
+td {
+    padding: 3px;
+    border: solid gray 2px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+table {
+    border: solid gray 2px;
+    border-collapse: collapse;
+}
+
+.number {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    background: #C0C0C0;
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background: #E6E6FA;
+}
+
+::selection {
+    color: lime;
+    background-color: olivedrab;
+}
